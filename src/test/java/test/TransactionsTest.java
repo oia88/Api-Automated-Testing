@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.is;
  * class for testing
  * @author Oscar.Araque
  */
-public class BankTransactions {
+public class TransactionsTest {
     /**
      * Initiate all the testing methods.
      */
@@ -20,7 +20,7 @@ public class BankTransactions {
     /**
      * The log.
      */
-    public Logger log = Logger.getLogger(BankTransactions.class);
+    public Logger log = Logger.getLogger(TransactionsTest.class);
 
     /**
      * Execute the first test method.

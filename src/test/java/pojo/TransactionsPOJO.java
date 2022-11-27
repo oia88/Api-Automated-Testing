@@ -4,7 +4,7 @@ package pojo;
  * class to deserialize the mockApi data - POJO -.
  * @author Oscar.Araque
  */
-public class Transactions {
+public class TransactionsPOJO {
 
     private int id;
     private String name;
@@ -22,7 +22,7 @@ public class Transactions {
      * constructor method
      * @author Oscar.Araque
      */
-    public Transactions(){}
+    public TransactionsPOJO(){}
 
     /**
      * constructor method.
@@ -39,7 +39,7 @@ public class Transactions {
      * @param telephone: phone
      * @author Oscar.Araque
      */
-    public Transactions(int id, String name, String lastName, String accountNumber, double amount, String transactionType
+    public TransactionsPOJO(int id, String name, String lastName, String accountNumber, double amount, String transactionType
             , String email, Boolean active, String country, String telephone)
     {
         this.id = id;
