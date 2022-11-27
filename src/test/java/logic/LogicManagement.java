@@ -53,6 +53,7 @@ public class LogicManagement {
         }
     }
 
+
     /**
      * Post request
      *
@@ -68,6 +69,7 @@ public class LogicManagement {
         response.prettyPrint();
         response.then().statusCode(201);
     }
+
 
     /**
      * Put request
@@ -86,8 +88,8 @@ public class LogicManagement {
         response.then().extract().response();
         response.prettyPrint();
         response.then().statusCode(200);
-
     }
+
 
     /**
      * Delete request
@@ -163,8 +165,8 @@ public class LogicManagement {
                     postTransactions(pojoList.get(k));
                 }
             }
-
     }
+
 
 
     /**
@@ -191,6 +193,7 @@ public class LogicManagement {
         }
         return isDuplicated;
     }
+
 
 
     /**
